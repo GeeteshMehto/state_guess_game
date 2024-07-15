@@ -1,6 +1,8 @@
 import pandas as pd
 import turtle
 
+
+
 data = pd.read_csv("50_states.csv")
 no_of_states = len(data["state"])
 name_of_state = data.state.to_list()
